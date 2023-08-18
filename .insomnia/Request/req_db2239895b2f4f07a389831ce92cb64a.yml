@@ -1,0 +1,46 @@
+_id: req_db2239895b2f4f07a389831ce92cb64a
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1692370720458
+created: 1690835988125
+url: http://localhost:3002/api/v1/login
+name: Login medicarte
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "identification": "1107105282",
+      "identificationType": {
+    		"id": 440,
+    		"name": "CC"
+    	},
+    	"password": "andres"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cf35672234d945859ce5643b8424de31
+  - id: pair_ed651853fcc4435a8d321f191f1d60dc
+    name: x-content-type-options
+    value: nosniff
+    description: ""
+  - id: pair_e53a6160d620489f8ef539b743ec8543
+    name: x-xss-protection
+    value: 1; mode=block
+    description: ""
+  - id: pair_85b45f7a67c64539830237db854a016f
+    name: x-frame-options
+    value: SAMEORIGIN
+    description: ""
+authentication: {}
+metaSortKey: -1691603576279.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

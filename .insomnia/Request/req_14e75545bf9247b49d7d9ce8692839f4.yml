@@ -1,0 +1,36 @@
+_id: req_14e75545bf9247b49d7d9ce8692839f4
+type: Request
+parentId: fld_59b3db2fa57f4a49901f9e97d30e5ca7
+modified: 1692062769574
+created: 1689727712981
+url: "{{ _.url_medicarte }}api/v1/location/active/29"
+name: Update Active Location
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691603222938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_6c6534b527214ea9adb532a1236b0b1d
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1692128496411
+created: 1690240121902
+url: http://localhost:3002/api/v1/genders
+name: Get Genders
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d88ccde51b4e4eb590224f8b8aa837cd
+    name: name
+    value: prueba
+    description: ""
+headers:
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1691603576085.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

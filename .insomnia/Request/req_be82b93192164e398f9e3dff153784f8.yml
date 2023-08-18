@@ -1,0 +1,36 @@
+_id: req_be82b93192164e398f9e3dff153784f8
+type: Request
+parentId: fld_2d0df901118a43dabe0266db474932ad
+modified: 1692369046386
+created: 1690491833923
+url: "{{ _.url_medicarte }}auth/login"
+name: Login User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "identification": "80068854",
+      "identificationType": "CC",
+    	"password": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1689460133111.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

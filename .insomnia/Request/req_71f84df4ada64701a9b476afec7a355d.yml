@@ -1,0 +1,31 @@
+_id: req_71f84df4ada64701a9b476afec7a355d
+type: Request
+parentId: fld_59b3db2fa57f4a49901f9e97d30e5ca7
+modified: 1692199273461
+created: 1689729002790
+url: "{{ _.url_medicarte }}api/v1/location/28"
+name: Delete Location
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: Content-Type
+    value: application/json
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691603222944.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

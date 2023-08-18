@@ -1,0 +1,55 @@
+_id: req_41586497f9bd4b18a3c7eccc3e380ee8
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1692370694055
+created: 1690848342272
+url: http://localhost:3002/api/v1/register
+name: Register User API Management
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Id": 1,
+      "Identification": "1107105282",
+      "IdentificationType": {
+    		"id": 440,
+    		"name": "CC"
+    	},
+      "Name": "Paciente uno",
+      "SecondName": "prueba",
+      "Lastname1": "kibernum",
+      "Lastname2": "kibernum",
+      "Gender": {
+    		"id": 446,
+    		"name": "Masculino"
+    	},
+      "BirthDate": "1996-12-30",
+      "Address": "Direccion de prueba",
+      "IdLocation": 36,
+      "Telephone": "4400000",
+      "PreCreationDate": "2023-07-21T11:13:56.3079025-05:00",
+      "Creation": true,
+      "CompleteName": "Paciente uno de prueba",
+    	"password": "andres"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1691603576254.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

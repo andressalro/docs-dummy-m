@@ -1,0 +1,34 @@
+_id: req_a4244723c80f40fa8dd8d1a02438f73e
+type: Request
+parentId: fld_59b3db2fa57f4a49901f9e97d30e5ca7
+modified: 1692311092255
+created: 1689729758122
+url: "{{ _.url_medicarte }}api/v1/location"
+name: Get Location
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d04d8f5f3d8548cfafefad09f7ae1bee
+    name: name
+    value: prueba
+    description: ""
+    disabled: true
+headers:
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1691603222950.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

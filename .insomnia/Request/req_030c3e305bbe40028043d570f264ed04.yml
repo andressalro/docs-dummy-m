@@ -1,0 +1,36 @@
+_id: req_030c3e305bbe40028043d570f264ed04
+type: Request
+parentId: fld_59b3db2fa57f4a49901f9e97d30e5ca7
+modified: 1692062743135
+created: 1689726843853
+url: "{{ _.url_medicarte }}api/v1/location/28"
+name: Update Location
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691603222850.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

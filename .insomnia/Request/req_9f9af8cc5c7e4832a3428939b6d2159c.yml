@@ -1,0 +1,40 @@
+_id: req_9f9af8cc5c7e4832a3428939b6d2159c
+type: Request
+parentId: fld_2d0df901118a43dabe0266db474932ad
+modified: 1691613911209
+created: 1690912151835
+url: "{{ _.url_medicarte }}api/v1/user"
+name: Get User
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d88ccde51b4e4eb590224f8b8aa837cd
+    name: identification
+    value: "80068854"
+    description: ""
+    disabled: false
+  - id: pair_494dc1ac5108411f9f2544f6caf0c0d6
+    name: identificationType
+    value: CC
+    description: ""
+headers:
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689460133123.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

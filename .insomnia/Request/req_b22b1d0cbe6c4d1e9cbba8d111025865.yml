@@ -1,0 +1,70 @@
+_id: req_b22b1d0cbe6c4d1e9cbba8d111025865
+type: Request
+parentId: fld_59b3db2fa57f4a49901f9e97d30e5ca7
+modified: 1692061205563
+created: 1689712601092
+url: "{{ _.url_medicarte }}api/v1/location"
+name: Create Location
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: prueba
+      id: pair_d8a7e930be714a0c85108b339e040d31
+    - id: pair_47bff85a10d041e7ae003a85b03ce49c
+      name: city
+      value: cali
+      description: ""
+    - id: pair_1f03cd1e397b4ef2b5232d7cd26f100b
+      name: direction
+      value: "calle 62a #1a69"
+      description: ""
+    - id: pair_f3dea4a655a042df9537aeb9fe136fca
+      name: direction2
+      value: ninguna
+      description: ""
+      disabled: true
+    - id: pair_ae57bcecd41f4687bb11f1188890ba07
+      name: telephone
+      value: "6087470967"
+      description: ""
+    - id: pair_ccc02458f4c643629d2cebb530f6ae62
+      name: lat
+      value: "5.569890001691859"
+      description: ""
+      disabled: true
+    - id: pair_7e5e0cb4af934c47b4e6418c8506cec4
+      name: lng
+      value: "-73.33136441707188"
+      description: ""
+      disabled: true
+    - id: pair_7e68b3a959fe4da592c5a21f1189ae14
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\usuario\Downloads\Medellin-2.png
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691603222900.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

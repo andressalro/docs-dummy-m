@@ -1,0 +1,45 @@
+_id: req_b78d8eb58c9145febe3fc721ae9acf92
+type: Request
+parentId: fld_23daa6fc715d4e7f8c08165c03b3531f
+modified: 1691600638784
+created: 1691507432232
+url: "{{ _.url_medicarte }}api/v1/document"
+name: Upload document
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_7e68b3a959fe4da592c5a21f1189ae14
+      name: documents
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\usuario\Downloads\VPN.pdf
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_e145bf45ba274f45816820f6737f921d
+  - name: x-content-type-options
+    value: nosniff
+    id: pair_e7f529a2ca9f459cb1abe50a58722676
+  - name: x-xss-protection
+    value: 1; mode=block
+    id: pair_8b500beac1454c42b6da684df193abd5
+  - name: x-frame-options
+    value: SAMEORIGIN
+    id: pair_9eae4d087c39445983223334cb167b82
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+    id: pair_6d6d8270f72043a4823fa324195d7381
+authentication: {}
+metaSortKey: -1691593195768
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

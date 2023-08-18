@@ -1,0 +1,38 @@
+_id: req_38252a57c15c4c1e86eec5a17673965b
+type: Request
+parentId: fld_2d0df901118a43dabe0266db474932ad
+modified: 1692063487979
+created: 1691008653289
+url: "{{ _.url_medicarte }}api/v1/user/10"
+name: Update User Active
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "approved"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Content-Type
+    value: application/json
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1689460133136.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

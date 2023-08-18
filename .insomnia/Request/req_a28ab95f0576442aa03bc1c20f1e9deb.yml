@@ -1,0 +1,36 @@
+_id: req_a28ab95f0576442aa03bc1c20f1e9deb
+type: Request
+parentId: fld_23daa6fc715d4e7f8c08165c03b3531f
+modified: 1691600633281
+created: 1691511841252
+url: "{{ _.url_medicarte }}api/v1/document/15"
+name: Delete document
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_7221c8800b844360b54c2f5a5141f1e1
+    name: title
+    value: VPN.pdf
+    description: ""
+    disabled: true
+headers:
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: Content-Type
+    value: application/json
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691593195618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

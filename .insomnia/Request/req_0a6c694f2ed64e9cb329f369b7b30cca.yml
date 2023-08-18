@@ -1,0 +1,25 @@
+_id: req_0a6c694f2ed64e9cb329f369b7b30cca
+type: Request
+parentId: wrk_fc646bec1038435eadab7a9054ba0a57
+modified: 1690247586261
+created: 1690247581229
+url: http://localhost:3002/api/v1/prueba
+name: Get Token
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d88ccde51b4e4eb590224f8b8aa837cd
+    name: name
+    value: prueba
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1689580055415.2969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

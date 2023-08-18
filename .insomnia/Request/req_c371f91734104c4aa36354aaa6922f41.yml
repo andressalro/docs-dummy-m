@@ -1,0 +1,26 @@
+_id: req_c371f91734104c4aa36354aaa6922f41
+type: Request
+parentId: wrk_fc646bec1038435eadab7a9054ba0a57
+modified: 1690925817951
+created: 1690385343728
+url: http://localhost:3002/api/v1/prueba
+name: Get encrypt
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/html
+    id: pair_4c746db56cf34b45ab3d2383d71440b8
+authentication: {}
+metaSortKey: -1689687354296.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

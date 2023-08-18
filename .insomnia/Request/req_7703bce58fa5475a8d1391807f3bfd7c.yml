@@ -1,0 +1,30 @@
+_id: req_7703bce58fa5475a8d1391807f3bfd7c
+type: Request
+parentId: wrk_fc646bec1038435eadab7a9054ba0a57
+modified: 1690402455054
+created: 1690386890346
+url: https://pruebasapis.medicarte.co:4433/API_Patient/api/patients/lrtRU3IkTkosf7O+Xlmcvw==
+name: patients
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f4ff54d10a8e4686aa09a0798f765fb7
+    name: "124430"
+    value: "13282"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_e3db3f0206d948829d73a00645156687
+    name: Authorization
+    value: Bearer {{ _.token }}
+    description: ""
+authentication: {}
+metaSortKey: -1690386890346
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

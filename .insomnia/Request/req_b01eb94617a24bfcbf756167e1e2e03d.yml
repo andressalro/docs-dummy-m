@@ -1,0 +1,34 @@
+_id: req_b01eb94617a24bfcbf756167e1e2e03d
+type: Request
+parentId: fld_23daa6fc715d4e7f8c08165c03b3531f
+modified: 1692055080648
+created: 1691510962916
+url: "{{ _.url_medicarte }}api/v1/document"
+name: Get documents
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7221c8800b844360b54c2f5a5141f1e1
+    name: ""
+    value: ""
+    description: ""
+    disabled: false
+headers:
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+authentication: {}
+metaSortKey: -1691593195718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

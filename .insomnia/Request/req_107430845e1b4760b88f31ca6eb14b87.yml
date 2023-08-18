@@ -1,0 +1,31 @@
+_id: req_107430845e1b4760b88f31ca6eb14b87
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1691614002647
+created: 1690240129504
+url: http://localhost:3002/api/v1/identificationtypes
+name: Get Identification Types
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d88ccde51b4e4eb590224f8b8aa837cd
+    name: name
+    value: prueba
+    description: ""
+headers:
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1691603576079.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

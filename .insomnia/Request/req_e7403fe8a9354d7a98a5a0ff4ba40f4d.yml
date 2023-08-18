@@ -1,0 +1,38 @@
+_id: req_e7403fe8a9354d7a98a5a0ff4ba40f4d
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1692133140284
+created: 1691696407177
+url: http://localhost:3002/api/v1/medicarte/document
+name: Get documents
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7221c8800b844360b54c2f5a5141f1e1
+    name: title
+    value: VPN.pdf
+    description: ""
+    disabled: true
+headers:
+  - name: x-content-type-options
+    value: nosniff
+    id: pair_4be8f9d395c34953982d45ad040a49ab
+  - name: x-xss-protection
+    value: 1; mode=block
+    id: pair_1c4842832b664d53af07d780a9d3eb5f
+  - name: x-frame-options
+    value: SAMEORIGIN
+    id: pair_f33ba6e83e02444aa121e45a99b33b16
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+    id: pair_85ca61052e3c4207af37a06c438d2b57
+authentication: {}
+metaSortKey: -1691603576104.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_a7a726328f5c4f778617ebf936e102a9
+type: Request
+parentId: fld_a238f4475e3d4097831ddc00283346d0
+modified: 1692132007666
+created: 1690839467306
+url: http://localhost:3002/api/v1/medicarte/locations
+name: Get Locations API Management
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer {{ _.token_medicarte }}
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1691603576179.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

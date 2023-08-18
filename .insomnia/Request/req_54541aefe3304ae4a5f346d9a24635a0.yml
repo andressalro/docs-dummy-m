@@ -1,0 +1,44 @@
+_id: req_54541aefe3304ae4a5f346d9a24635a0
+type: Request
+parentId: fld_2d0df901118a43dabe0266db474932ad
+modified: 1692310760026
+created: 1690480350989
+url: "{{ _.url_medicarte }}auth/register"
+name: Register User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "firstName": "Admin",
+    	"secondName": "",
+      "lastName1": "admin",
+      "identification": "00000000",
+      "identificationType": "CC",
+      "telephone": "1234567890",
+      "movilphone": "0987654321",
+      "birthdate": "1990-01-01",
+      "locationId": 1,
+      "gender": "M",
+    	"password": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: x-content-type-options
+    value: nosniff
+  - name: x-xss-protection
+    value: 1; mode=block
+  - name: x-frame-options
+    value: SAMEORIGIN
+authentication: {}
+metaSortKey: -1689460133086.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

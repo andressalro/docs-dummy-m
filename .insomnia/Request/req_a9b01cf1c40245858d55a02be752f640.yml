@@ -1,0 +1,42 @@
+_id: req_a9b01cf1c40245858d55a02be752f640
+type: Request
+parentId: wrk_fc646bec1038435eadab7a9054ba0a57
+modified: 1692132380852
+created: 1690218876602
+url: http://localhost:3002/api/v1/patientprecreation
+name: Create Precreation Patient
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "Id": 1,
+      "Identification": "1107105203",
+      "IdentificationType": 440,
+      "Name": "Paciente uno",
+      "SecondName": "prueba",
+      "Lastname1": "kibernum",
+      "Lastname2": "kibernum",
+      "Gender": 445,
+      "BirthDate": "1996-12-30",
+      "Address": "Direccion de prueba",
+      "IdLocation": 36,
+      "Telephone": "4400000",
+      "PreCreationDate": "2023-07-21T11:13:56.3079025-05:00",
+      "Creation": true,
+      "CompleteName": "Paciente uno de prueba"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1689580055365.2969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
